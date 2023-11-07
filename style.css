@@ -1,65 +1,60 @@
-body{
-    background-color: #B7B6C2;
+body {
+    background-color: #B7B6C2; /* Hace que el fondo de la pagina sea gris */
 }
 
-h1{
-    color: #023E8A;
-    text-align: center;
-    font-size: 70px;
-    font-family: serif;
-    
-    
+h1 {
+    color: #023E8A; /* Hace que el color del texto sea azul oscuro. */
+    text-align: center; /* Centra el texto horizontalmente. */
+    font-size: 70px; /* Establece el tamaño de fuente en 70 píxeles. */
+    font-family: serif; /* Define la fuente de tipo de letra a una fuente serif. */
 }
 
 img {
-    display: block;
-    margin:auto;
-    border-radius: 5%;    
-    box-shadow: 4px 4px black;
+    display: block; /* Hace que la imagen sea un bloque . */
+    margin: auto; /* Centra la imagen horizontalmente en su contenedor. */
+    border-radius: 5%; /* Aplica un borde redondeado a la imagen. */
+    box-shadow: 4px 4px black; /* Agrega una sombra de 4 píxeles en la dirección X y 4 píxeles en la dirección Y, de color negro. */
+}
+
+h2 {
+    color: #023E8A; /* Hace que el color del texto sea azul oscuro. */
+    text-align: center; /* Centra el texto horizontalmente. */
+    font-family: serif; /* Hace que la fuente de tipo de letra sea serif. */
+    font-size: 40px; /* Establece el tamaño de fuente en 40 píxeles. */
+}
+
+p {
+    font-family: serif; /* Define la fuente de tipo de letra a una fuente serif. */
+    font-size: 25px; /* Establece el tamaño de fuente en 25 píxeles. */
+    color: black; /* Define el color del texto en negro. */
+}
+
+ol {  /* la caja de la lista */
+    background-color: #E9ECEF; /* Establece el color de fondo de la lista */
+    border: 4px solid black; /* Agrega un borde de 4 píxeles de ancho, sólido y de color negro alrededor de la lista. */
     
-    
-  }
-
-h2{
-    color: #023E8A;
-    text-align: center;
-    font-family: serif;
-    font-size: 40px;
-    
 }
 
-p{
-    font-family: serif;
-    font-size: 25PX;
-    color: black;
+
+li {  /* los items de la lista */
+    margin: 10px 0; /* Establece un margen superior e inferior de 20 píxeles en la parte de los items de la lista*/
+    font-family: serif; /* Define la fuente de tipo de letra a una fuente serif. */
+    font-size: 25px; /* Establece el tamaño de fuente en 25 píxeles. */
+    color: black; /* Define el color del texto en negro. */
 }
 
-ol{
-   padding: auto;
-   background-color: #E9ECEF;
-   border: 4px solid black;
+
+table {   /* la tabla en general */
+    width: 100%; /* Hace que el ancho del elemento al 100% del ancho de su contenedor. */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas en tablas, evitando espacios entre ellas. */
+    margin: 20px 0; /* Establece un margen superior e inferior de 20 píxeles */
+    font-family: serif; /* Define la fuente de tipo de letra a una fuente serif */
+    font-size: 25px; /* Hace que el tamaño de fuente en 25 píxeles. */
+    border: 4px solid black; /* Hace que un borde de 4 píxeles de ancho, sólido y de color negro alrededor del elemento. */
 
 }
 
-li{
-    border-collapse: collapse;
-    margin: 10px;
-    font-family: serif;
-    font-size: 25PX;
-    color: black;
-
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    font-family: serif;
-    font-size: 25PX;
-    border: 4px solid black;
-}
-
-th {
+th {     /* Encabezado de la tabla */
     background-color: #023E8A;; /* Color de fondo */
     color: #fff; /* Color del texto */
     font-weight: bold; /* Texto en negritas */
@@ -67,7 +62,7 @@ th {
     text-align: left; /* Alineación del texto */
   }
 
-  td {
+  td {  /* los items de la tabla */
     background-color: #E9ECEF; /* Color de fondo alternativo */
     color: #333; /* Color del texto */
     padding: 10px; /* Espaciado interno */
@@ -75,15 +70,15 @@ th {
     
   }
 
-audio{
-    display: block;
-    margin:auto;
-    
+  audio {
+    display: block; /* Hace que el elemento de audio sea un bloque */
+    margin: auto; /* Centra el elemento de audio */
 }
 
-video{
-    display: block;
-    margin:auto;
-    border: 3px solid black;
-    border-radius: 5%;
+
+video {
+    display: block; /* Hace que el elemento de video sea un bloque */
+    margin: auto; /* Centra el elemento de video */
+    border: 3px solid black; /* Agrega un borde de 3 píxeles de ancho, sólido y de color negro alrededor del video. */
+    border-radius: 5%; /* Aplica un borde redondeado al video. */
 }
