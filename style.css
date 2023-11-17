@@ -55,7 +55,7 @@ table {   /* la tabla en general */
 }
 
 th {     /* Encabezado de la tabla */
-    background-color: #023E8A;; /* Color de fondo */
+    background-color: #023E8A; /* Color de fondo */
     color: #fff; /* Color del texto */
     font-weight: bold; /* Texto en negritas */
     padding: 30px; /* Espaciado interno */
@@ -82,3 +82,13 @@ video {
     border: 3px solid black; /* Agrega un borde de 3 píxeles de ancho, sólido y de color negro alrededor del video. */
     border-radius: 5%; /* Aplica un borde redondeado al video. */
 }
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover {
+    transition: color 0.3s ease-in-out, font-size 0.3s ease-in-out;
+    color: #023E8A;
+    font-size: 40px;    
+  }
